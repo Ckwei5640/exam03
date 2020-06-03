@@ -8,7 +8,7 @@ mqttc = paho.Client()
 # Settings for connection
 # TODO: revise host to your ip
 host = "192.168.43.122"
-topic = "Velocity"
+topic = "velocity"
 # Callbacks
 def on_connect(self, mosq, obj, rc):
       print("Connected rc: " + str(rc))
